@@ -1,4 +1,4 @@
-package com.mgm;
+package dev.mgm.network.proxy;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

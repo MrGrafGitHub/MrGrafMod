@@ -1,5 +1,6 @@
-package com.mgm;
+package dev.mgm;
 
+import dev.mgm.network.proxy.CommonProxy;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -19,20 +20,21 @@ public class MrGrafMOD {
     public static final String MOD_NAME = "MrGrafMOD";
     public static final String VERSION = "2023.01.24";
 
-    @SidedProxy(clientSide = "com.mgm.ClientProxy",serverSide = "com.mgm.CommonProxy")
+    @SidedProxy(clientSide = "com.mgm.proxy.ClientProxy",serverSide = "com.mgm.proxy.CommonProxy")
     public static CommonProxy proxy;
+    public static CommonProxy getProxy(){ return proxy;}
 
     @Mod.Instance(MOD_ID)
     public static MrGrafMOD INSTANCE;
 
     @Mod.EventHandler
-    public void preinit(FMLPreInitializationEvent event) {}
+    public void preinit(FMLPreInitializationEvent event) {proxy.preInit(event);}
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {}
+    public void init(FMLInitializationEvent event) {proxy.init(event);}
 
     @Mod.EventHandler
-    public void postinit(FMLPostInitializationEvent event) {}
+    public void postinit(FMLPostInitializationEvent event) {proxy.postInit(event);}
 
     @GameRegistry.ObjectHolder(MOD_ID)
     public static class Blocks {}
