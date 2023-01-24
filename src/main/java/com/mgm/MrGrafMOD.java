@@ -3,6 +3,7 @@ package com.mgm;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -20,6 +21,7 @@ public class MrGrafMOD {
     public static final String MOD_ID = "mgm";
     public static final String MOD_NAME = "MrGrafMOD";
     public static final String VERSION = "2023.01.24";
+    @SidedProxy(clientSide = "com.mgm.ClientProxy",serverSide = "com.mgm.CommonProxy")
 
     @Mod.Instance(MOD_ID)
     public static MrGrafMOD INSTANCE;
