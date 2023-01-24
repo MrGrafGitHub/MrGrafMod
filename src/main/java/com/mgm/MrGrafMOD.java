@@ -23,6 +23,8 @@ public class MrGrafMOD {
     public static final String VERSION = "2023.01.24";
     @SidedProxy(clientSide = "com.mgm.ClientProxy",serverSide = "com.mgm.CommonProxy")
 
+    public static CommonProxy proxy;
+
     @Mod.Instance(MOD_ID)
     public static MrGrafMOD INSTANCE;
 
