@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "mgm",
+    "name": "MrGrafMOD",
+    "description": "MrGraf",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/MrGrafGitHub",
+    "updateUrl": "https://github.com/MrGrafGitHub",
+    "authorList": [
+      "MrGraf"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
