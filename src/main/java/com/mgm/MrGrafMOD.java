@@ -21,8 +21,8 @@ public class MrGrafMOD {
     public static final String MOD_ID = "mgm";
     public static final String MOD_NAME = "MrGrafMOD";
     public static final String VERSION = "2023.01.24";
-    @SidedProxy(clientSide = "com.mgm.ClientProxy",serverSide = "com.mgm.CommonProxy")
 
+    @SidedProxy(clientSide = "com.mgm.ClientProxy",serverSide = "com.mgm.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.Instance(MOD_ID)
@@ -30,27 +30,22 @@ public class MrGrafMOD {
 
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
-
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
     }
 
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event) {
-
     }
 
     @GameRegistry.ObjectHolder(MOD_ID)
     public static class Blocks {
-
     }
 
     @GameRegistry.ObjectHolder(MOD_ID)
     public static class Items {
-
     }
 
     @Mod.EventBusSubscriber
@@ -58,12 +53,10 @@ public class MrGrafMOD {
 
         @SubscribeEvent
         public static void addItems(RegistryEvent.Register<Item> event) {
-
         }
 
         @SubscribeEvent
         public static void addBlocks(RegistryEvent.Register<Block> event) {
-
         }
     }
 
