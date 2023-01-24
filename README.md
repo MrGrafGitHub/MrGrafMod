@@ -28,3 +28,12 @@ For example, most technical mods bring a lot of repeating blocks \ things into t
 I plan to bring all this to a uniform form, one type of energy (if possible), one type of different machines but with different levels so that there would be variability in survival.
 Unfortunately, I could not find the source codes of certain mods, a separate solution will be planned for such cases. At this stage, most likely they will not be included in the development of a single modular mod.
 This information wall will be supplemented and adjusted in the course of development \ completion.
+
+
+ru↵
+Ниже указана первая версия структуры папок, на данный момент это только набросок.В будущем возможны корректировки
+
+en↵
+Below is the first version of the folder structure, at the moment it is only an outline.Adjustments are possible in the future
+
+![img.png](img.png)
