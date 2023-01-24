@@ -26,35 +26,28 @@ public class MrGrafMOD {
     public static MrGrafMOD INSTANCE;
 
     @Mod.EventHandler
-    public void preinit(FMLPreInitializationEvent event) {
-    }
+    public void preinit(FMLPreInitializationEvent event) {}
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {
-    }
+    public void init(FMLInitializationEvent event) {}
 
     @Mod.EventHandler
-    public void postinit(FMLPostInitializationEvent event) {
-    }
+    public void postinit(FMLPostInitializationEvent event) {}
 
     @GameRegistry.ObjectHolder(MOD_ID)
-    public static class Blocks {
-    }
+    public static class Blocks {}
 
     @GameRegistry.ObjectHolder(MOD_ID)
-    public static class Items {
-    }
+    public static class Items {}
 
     @Mod.EventBusSubscriber
     public static class ObjectRegistryHandler {
 
         @SubscribeEvent
-        public static void addItems(RegistryEvent.Register<Item> event) {
-        }
+        public static void addItems(RegistryEvent.Register<Item> event) {}
 
         @SubscribeEvent
-        public static void addBlocks(RegistryEvent.Register<Block> event) {
-        }
+        public static void addBlocks(RegistryEvent.Register<Block> event) {}
     }
 
 }
