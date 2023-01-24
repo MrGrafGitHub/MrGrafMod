@@ -1,4 +1,4 @@
-# MrGrafMod
+MrGrafMod
 
 ##О проекте\About the project
 
