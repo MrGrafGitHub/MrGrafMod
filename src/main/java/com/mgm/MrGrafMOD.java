@@ -11,11 +11,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(
-        modid = MrGrafMOD.MOD_ID,
-        name = MrGrafMOD.MOD_NAME,
-        version = MrGrafMOD.VERSION
-)
+@Mod(modid = MrGrafMOD.MOD_ID, name = MrGrafMOD.MOD_NAME, version = MrGrafMOD.VERSION)
+
 public class MrGrafMOD {
 
     public static final String MOD_ID = "mgm";
