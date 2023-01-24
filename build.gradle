@@ -2,7 +2,6 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-
 group = 'com'
 version = '2023.01.24'
 
@@ -16,12 +15,8 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
-
             mods {
                 mrgrafmod {
                     source sourceSets.main
@@ -31,12 +26,8 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
-
             mods {
                 mrgrafmod {
                     source sourceSets.main
@@ -47,15 +38,12 @@ minecraft {
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
-
 dependencies {
-
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2859'
 
 }
 
 jar.finalizedBy('reobfJar')
-
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
