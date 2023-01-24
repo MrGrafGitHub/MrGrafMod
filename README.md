@@ -14,11 +14,3 @@ Good afternoon, dear minecraft player!
 This project is a combined version of the mod from many other mods written for minecraft version 1.12.2.
 Each mod and each author of these beautiful mods have introduced something into the minecrafta culture that has been fixed in our hearts for a long time and without which we now do not see vanilla minecraft.
 In the process of integrating mods into my project, mods and their authors will be listed here with links (if possible).
-
-ru↵
-Ниже указана первая версия структуры папок, на данный момент это только набросок.В будущем возможны корректировки
-
-en↵
-Below is the first version of the folder structure, at the moment it is only an outline.Adjustments are possible in the future
-
-![img.png](img.png)
