@@ -1,4 +1,5 @@
-##О проекте\About the project
+##О проекте
+##About the project
 
 
 >ru↵
